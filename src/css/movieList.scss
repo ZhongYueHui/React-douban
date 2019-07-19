@@ -1,0 +1,15 @@
+.box {
+  border: 1px solid #eee;
+  margin: 5px;
+  text-align: center;
+  width: 220px;
+  padding: 5px;
+  transition: all 0.5s;
+  box-shadow: 0 0 6px #eee;
+  .img {
+    width: 170px;
+  }
+  &:hover {
+    transform: rotate(1deg);
+  }
+}
